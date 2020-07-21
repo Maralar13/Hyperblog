@@ -3,7 +3,27 @@ body
  background-color: antiquewhite;
  color: deeppink;
  text-align: center;
- font-family: Estrangelo Edessa;
+ font-family: 'Arial';
+ margin: 0;
+ padding: 0;
+}
+#cabecera
+{
+    background: rgba(247, 210, 5, 0.973);
+    box-shadow: 0px 2px 20px 0px rgba(24, 24, 23, 0.973);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+#post
+{
+    padding: 1em;
 }
 #container
 {
