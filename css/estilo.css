@@ -1,7 +1,7 @@
 body
 {
- background-color: antiquewhite;
- color: deeppink;
+ background-color: #1d009e;
+ color: white;
  text-align: center;
  font-family: 'Arial';
  margin: 0;
@@ -9,11 +9,17 @@ body
 }
 #cabecera
 {
-    background: rgba(247, 210, 5, 0.973);
+    background: #1d009e;
     box-shadow: 0px 2px 20px 0px rgba(24, 24, 23, 0.973);
     font-weight: bold;
+    font-size: 30px;
     margin: 0;
     padding: 0.5em;
+}
+#cabecera #logo
+{
+    width: 60px;
+    vertical-align: middle;
 }
 #cabecera #tagline
 {
